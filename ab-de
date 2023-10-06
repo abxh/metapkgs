@@ -1,0 +1,52 @@
+# vim:ft=sh
+
+pkgname=ab-de
+pkgver=1
+pkgrel=0
+arch=("any")
+license=("MIT")
+depends=(
+  xorg-server
+  xorg-xinit
+
+  xf86-video-amdgpu
+  vulkan-radeon
+  libva-mesa-driver
+  mesa-vdpau
+
+  i3-wm
+  sxhkd
+  i3blocks
+  python-i3ipc
+
+  tlp
+  tlp-rdw
+
+  picom
+  redshift
+  polkit-gnome
+
+  pulseaudio
+  pulseaudio-alsa
+
+  alacritty
+  dunst
+  rofi
+
+  thunar
+  tumbler
+  thunar-archive-plugin
+
+  gnome-themes-extra
+  gtk-engine-murrine
+
+  arandr
+  lxappearance
+  network-manager-applet
+  nm-connection-editor
+  pavucontrol
+  udiskie
+)
+optdepends=(
+  i3lock-color
+)

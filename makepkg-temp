@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR="/tmp/$1"
+mkdir -p $DIR
+cp "$1" "$DIR/PKGBUILD"
+(cd $DIR && makepkg -si -f)

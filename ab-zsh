@@ -1,0 +1,13 @@
+# vim:ft=sh
+
+pkgname=ab-zsh
+pkgver=1
+pkgrel=0
+arch=("any")
+license=("MIT")
+depends=(
+  zsh
+  zsh-autosuggestions
+  zsh-completions
+  zsh-history-substring-search
+)
