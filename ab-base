@@ -20,5 +20,7 @@ depends=(
   os-prober
   efibootmgr
   grub
+
+  zram-generator
 )
 

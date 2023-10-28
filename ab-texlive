@@ -1,0 +1,17 @@
+# vim:ft=sh
+
+pkgname=ab-texlive
+pkgver=1
+pkgrel=0
+arch=("any")
+license=("MIT")
+depends=(
+  texlive-fontsrecommended
+  texlive-latexextra
+  texlive-latexrecommended
+  texlive-mathscience
+  texlive-pstricks
+  texlive-lualatex
+
+  lyx
+)

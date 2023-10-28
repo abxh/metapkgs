@@ -18,6 +18,8 @@ depends=(
   sxhkd
   i3blocks
   python-i3ipc
+  xdotool
+  yad
 
   tlp
   tlp-rdw
@@ -26,8 +28,10 @@ depends=(
   redshift
   polkit-gnome
 
-  pulseaudio
+  alsa-utils
+  alsa-tools
   pulseaudio-alsa
+  pulseaudio
 
   alacritty
   dunst
@@ -36,6 +40,7 @@ depends=(
   thunar
   tumbler
   thunar-archive-plugin
+  file-roller
 
   gnome-themes-extra
   gtk-engine-murrine
@@ -46,6 +51,7 @@ depends=(
   nm-connection-editor
   pavucontrol
   udiskie
+  caffeine-ng
 )
 optdepends=(
   i3lock-color
