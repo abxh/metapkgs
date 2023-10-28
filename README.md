@@ -7,6 +7,10 @@ Makes for a nicer `pacman -Qe` view, so I reduce my urge to reinstall arch. lol.
 
 ## Tips
 - To install a package as a dependency, write:
-```pacman -D --asdeps <package names>```
+```
+pacman -D --asdeps <package names>
+```
 - To reverse the effect write:
-```pacman -D --asexplicit <package names>```
+```
+pacman -D --asexplicit <package names>
+```
