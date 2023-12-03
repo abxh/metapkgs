@@ -10,26 +10,10 @@ depends=(
   bat
   fd
   fzf
-  hsetroot
   htop
   pacman-contrib
   ripgrep
-  scrot
-  slop
-  stow
   sudo
   trash-cli
   tree
-  xclip
-  xdg-user-dirs
-  xss-lock
-  yt-dlp
-
-  atool
-  p7zip
-  unrar
-  unzip
-)
-optdepends=(
-  paru-bin
 )
