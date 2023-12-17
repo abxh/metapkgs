@@ -22,5 +22,11 @@ depends=(
   grub
 
   zram-generator
+
+  sudo
+
+  base-devel
+  git
+  openssh
 )
 
